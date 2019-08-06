@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul, a{
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, a {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -17,6 +17,11 @@ a:visited {
 }
 
 #navigation-bar a:hover {
+  text-decoration: none;
+  color: #CE893A;
+}
+
+footer a:hover {
   text-decoration: none;
   color: #CE893A;
 }
@@ -94,7 +99,7 @@ main {
   text-align: center;
 }
 
-#social-links img{
+#social-links img {
   height: 50px;
   padding: 30px;
   display: inline-block;
@@ -103,6 +108,13 @@ main {
 #footer-text {
   text-align: center;
   color: rgba(255, 255, 255, .5);
+}
+
+.beerimage {
+  position: absolute;
+  width: 210px;
+  top: 25px;
+  right: 300px;
 }
 
 .nav-item {
@@ -131,7 +143,6 @@ main {
   color: rgba(255, 255, 255, 1);
   top: 100px;
   text-shadow: 2px 2px 8px #000000;
-
 }
 
 .lg-article-subheader {
@@ -158,8 +169,8 @@ main {
   border: 0px;
 }
 
-.beerbutton:hover{
-  background-color: rgba(206,137,58,.5);
+.beerbutton:hover {
+  background-color: rgba(206, 137, 58, .5);
   color: rgba(255, 255, 255, .5);
   cursor: pointer;
 }
@@ -171,30 +182,28 @@ main {
   position: relative;
 }
 
-
-
-#sm-article-01{
+#sm-article-01 {
   background: url("../images/article-02a.jpg");
   background-size: cover;
   height: 400px;
-  width:33.33%;
-  float:left;
+  width: 33.33%;
+  float: left;
 }
 
-#sm-article-02{
+#sm-article-02 {
   background: url("../images/article-02b.jpg");
   background-size: cover;
   height: 400px;
-  width:33.33%;
-  float:left;
+  width: 33.33%;
+  float: left;
 }
 
-#sm-article-03{
+#sm-article-03 {
   background: url("../images/article-02c.jpg");
   background-size: cover;
   height: 400px;
-  width:33.33%;
-  float:left;
+  width: 33.33%;
+  float: left;
 }
 
 .sm-article-img {
@@ -204,32 +213,30 @@ main {
 
 .sm-article-link {
   color: rgba(255, 255, 255, 1);
-
 }
 
-.sm-article-link:hover{
+.sm-article-link:hover {
   color: rgba(255, 255, 255, .5);
 }
 
 .sm-article-sub-header {
   font-family: 'Anton', sans-serif;
   font-size: 95px;
-  color:inherit;
+  color: inherit;
   text-align: center;
-  margin-top:100px;
+  margin-top: 100px;
   text-shadow: 2px 2px 8px #000000;
 }
 
 .sm-article-headline {
   font-family: 'Abel', sans-serif;
   font-size: 30px;
-  color:inherit;
+  color: inherit;
   text-align: center;
   max-width: 300px;
   margin: 20px auto 0 auto;
   text-shadow: 2px 2px 8px #000000;
 }
-
 
 .page-text {
   font-family: 'Abel', sans-serif;
