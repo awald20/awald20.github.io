@@ -62,7 +62,7 @@ main {
 }
 
 #hero-image {
-  background: url('../images/main-image.jpg');
+  background: url('../images/main-image.gif');
   width: 100%;
   background-size: cover;
   color: #FFFFFFFF;
@@ -336,9 +336,26 @@ main {
   }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 560px) {
+
+  #social-links img {
+    height: 50px;
+    padding: 20px;
+    display: inline-block;
+  }
+
+  #hero-image {
+    background-position: 70%,75%;
+  }
+
+  #slogan {
+    text-align:center;
+  }
+
+
   #slogan {
     font-size: 70px;
+    margin: 0 10px;
   }
 
   .lg-article {
@@ -351,14 +368,27 @@ main {
   }
 
   .lg-article-headline {
-    font-size: 10vw;
+    font-size: 13vw;
+    line-height:1.2em;
   }
+
+  .sm-article-headline {
+    font-size: 13vw;
+    line-height:1em;
+  }
+
 
   .lg-article-subheader {
     font-size: 5vw;
   }
 
   .beerbutton {
+
     font-size: 4vw;
+  }
+
+  .sm-article{
+    padding-top: 50px;
+    max-height: 200px;
   }
 }
